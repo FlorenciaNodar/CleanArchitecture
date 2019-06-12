@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Domain\DemoCleanArchitecture.Domain\DemoCleanArchitecture.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\DemoCleanArchitecture.Persistence\DemoCleanArchitecture.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\" />
+  </ItemGroup>
+
+</Project>
